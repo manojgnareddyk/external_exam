@@ -1,5 +1,5 @@
 pipeline{
-    agent any{
+    agent any
         stages{
             stage("Build"){
                 steps{
@@ -27,7 +27,7 @@ pipeline{
                     bat "kubectl apply -f service.yaml"
                 }
             }
-        }
+        
     }
         post{
             succes{
@@ -40,6 +40,7 @@ pipeline{
     
 
 }
+
 
 
 
