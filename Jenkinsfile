@@ -10,7 +10,7 @@ pipeline{
             stage('Docker login'){
                 steps{
                     echo "Docker Login"
-                    bat "docker login"
+                    bat "docker login -u manojgnareddyk -p manojgna10"
                 }
             }
             stage('Docker Push'){
@@ -40,6 +40,7 @@ pipeline{
     
 
 }
+
 
 
 
