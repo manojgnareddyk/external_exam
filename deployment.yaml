@@ -14,8 +14,9 @@ spec:
     spec:
       containers:
       - name:kubedemoapp
-        image=manojgnareddyk/exam:v1
+        image:manojgnareddyk/exam:v1
         ports:
 
         - containerPort:5000
+
 
