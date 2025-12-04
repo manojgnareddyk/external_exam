@@ -30,7 +30,7 @@ pipeline{
         
     }
         post{
-            succes{
+            success{
                 echo "Pipeline built successfully"
             }
             failure{
@@ -40,6 +40,7 @@ pipeline{
     
 
 }
+
 
 
 
