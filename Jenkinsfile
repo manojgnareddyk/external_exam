@@ -28,6 +28,7 @@ pipeline{
                 }
             }
         }
+    }
         post{
             succes{
                 echo "Pipeline built successfully"
@@ -36,8 +37,9 @@ pipeline{
                 echo "Pipeline failed"
             }
         }
-    }
+    
 
 }
+
 
 
